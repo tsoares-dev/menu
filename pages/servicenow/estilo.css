@@ -1,0 +1,39 @@
+div:nth-child(1){
+  background: red;
+}
+div:nth-last-child(2){
+  background: #ab82ff;
+}
+li:nth-of-type(1){
+  color: green;
+}
+ol:nth-of-type(1){
+  color: rgb(219, 5, 112);
+}
+div:last-child{
+  background: orange;
+}
+div:first-of-type{
+  border: solid 5px green;
+}
+div:last-of-type{
+  border: solid 5px brown;
+}
+p:only-child{
+  font-size: 25px;
+}
+ul:only-of-type{
+  text-decoration: underline;
+}
+
+h2 {
+  /* serif */
+  /* sans-serif */
+  /* cursive */
+  /* monospace */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  font-style: inherit;
+  font-variant: small-caps;
+  font-weight: ;
+}
